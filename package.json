@@ -1,0 +1,23 @@
+{
+  "name": "orb-core",
+  "version": "1.0.0",
+  "description": "plotter data tools",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://cmichaelgraham@github.com/plotter/orb-core.git"
+  },
+  "keywords": [
+    "plotter",
+    "data",
+    "tools"
+  ],
+  "author": "cmichaelgraham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plotter/orb-core/issues"
+  },
+  "homepage": "https://github.com/plotter/orb-core"
+}
