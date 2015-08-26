@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>cmichaelgraham</authors>
+    <owners>cmichaelgraham</owners>
+    <projectUrl>https://github.com/plotter/orb-core</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>a data library</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>DataSet json</tags>
+  </metadata>
+</package>
