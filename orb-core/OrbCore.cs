@@ -3,9 +3,9 @@ using System.Data;
 
 namespace orb_core
 {
-    class OrbCore
+    public class OrbCore
     {
-        string toJson(DataSet dataSet) {
+        public static string toJson(DataSet dataSet) {
             return JsonConvert.SerializeObject(dataSet, Formatting.Indented);
         }
     }
