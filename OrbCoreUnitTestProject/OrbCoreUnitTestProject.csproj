@@ -60,6 +60,9 @@
       <Name>orb-core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="products.json" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
