@@ -82,6 +82,21 @@ namespace OrbCoreUnitTestProject
 
             var jsonResult = OrbCore.toJson(dataSet);
 
+            // doesn't return the results nested together
+            Console.WriteLine(jsonResult);
+        }
+
+        [TestMethod]
+        public void TestMethod3()
+        {
+            var jsonResult = new OrbCore()
+                .createDataSet("NorthwindTest")
+                .createTable(
+                    new OrbDbConn().connectionString("Data Source=MGRAHAM\\SQLEXPRESS;Initial Catalog=NORTHWND; Trusted_Connection=True"),
+                    new OrbTableAdapter()
+                        .selectSql("SELECT * FROM PRODUCTS")
+                        .tableName("Products"))
+                .toJson();
             Console.WriteLine(jsonResult);
         }
     }
